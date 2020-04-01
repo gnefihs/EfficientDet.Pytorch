@@ -1,5 +1,11 @@
 import torch
+
+import sys
+path = '/opt/ros/kinetic/lib/python2.7/dist-packages'
+if path in sys.path:
+    sys.path.remove(path)
 import cv2
+
 from PIL import Image
 import matplotlib.pyplot as plt
 from models import EfficientDet
@@ -38,7 +44,7 @@ class Detect(object):
         dir_name: Folder or image_file
     """
 
-    def __init__(self, weights, num_class=21, network='efficientdet-d0', size_image=(512, 512)):
+    def __init__(self, weights, num_class=21, network='efficientdet-d0', size_image=(512,512)): #(512,512)
         super(Detect,  self).__init__()
         self.weights = weights
         self.size_image = size_image
