@@ -30,6 +30,15 @@ class EfficientDet(nn.Module):
                  threshold=0.01,
                  iou_threshold=0.5):
         super(EfficientDet, self).__init__()
+        
+        #sf: add some simple convs
+        self.conv1 = torch.nn.Conv2d(3,3,7, padding=3)
+#         self.conv1.weight.data.fill_(1)
+#         self.conv1.bias.data.fill_(0.001)
+        self.conv2 = torch.nn.Conv2d(3,3,7, padding=3)
+        self.conv3 = torch.nn.Conv2d(3,3,7, padding=3)
+        print("hi! added conv layers")
+        
         self.backbone = EfficientNet.from_pretrained(MODEL_MAP[network])
         self.is_training = is_training
         self.neck = BIFPN(in_channels=self.backbone.get_list_features()[-5:],
@@ -59,7 +68,18 @@ class EfficientDet(nn.Module):
             inputs, annotations = inputs
         else:
             inputs = inputs
-        x = self.extract_feat(inputs)
+        
+        # sf: add some simple convs        
+        x = torch.nn.Softplus()(self.conv1(inputs))
+        torch.save(x, '/home/sf/Documents/ee6934/Project2/EfficientDet.Pytorch/x1.pt')
+        x = torch.nn.Softplus()(self.conv2(x))
+        torch.save(x, '/home/sf/Documents/ee6934/Project2/EfficientDet.Pytorch/x2.pt')
+        modified_inputs = self.conv1(x)
+        torch.save(modified_inputs, '/home/sf/Documents/ee6934/Project2/EfficientDet.Pytorch/inp.pt')
+        
+        # modified this to take in modified_inputs
+        x = self.extract_feat(modified_inputs)
+        # x = self.extract_feat(inputs)
         outs = self.bbox_head(x)
         classification = torch.cat([out for out in outs[0]], dim=1)
         regression = torch.cat([out for out in outs[1]], dim=1)
@@ -73,7 +93,7 @@ class EfficientDet(nn.Module):
             scores_over_thresh = (scores > self.threshold)[0, :, 0]
 
             if scores_over_thresh.sum() == 0:
-                print('No boxes to NMS')
+#                 print('No boxes to NMS')
                 # no boxes to NMS, just return
                 return [torch.zeros(0), torch.zeros(0), torch.zeros(0, 4)]
             classification = classification[:, scores_over_thresh, :]

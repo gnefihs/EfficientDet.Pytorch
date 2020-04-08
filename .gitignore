@@ -1,3 +1,7 @@
+# Pytorch saved tensors and models
+*.pt
+checkpoints/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

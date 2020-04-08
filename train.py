@@ -93,13 +93,18 @@ iteration = 1
 
 
 def train(train_loader, model, scheduler, optimizer, epoch, args):
+    print('hi from train.py')
     global iteration
     print("{} epoch: \t start training....".format(epoch))
     start = time.time()
     total_loss = []
     model.train()
-    model.module.is_training = True
-    model.module.freeze_bn()
+#     model.module.is_training = True
+#     model.module.freeze_bn()
+    model.is_training = True
+    model.freeze_bn()
+    
+    
     optimizer.zero_grad()
     for idx, (images, annotations) in enumerate(train_loader):
         images = images.cuda().float()
@@ -112,13 +117,14 @@ def train(train_loader, model, scheduler, optimizer, epoch, args):
             print('loss equal zero(0)')
             continue
         loss.backward()
+        
         if (idx + 1) % args.grad_accumulation_steps == 0:
             torch.nn.utils.clip_grad_norm_(model.parameters(), 0.1)
-            optimizer.step()
+            optimizer.step()            
             optimizer.zero_grad()
 
         total_loss.append(loss.item())
-        if(iteration % 300 == 0):
+        if(iteration % 100 == 0):
             print('{} iteration: training ...'.format(iteration))
             ans = {
                 'epoch': epoch,
@@ -141,7 +147,7 @@ def train(train_loader, model, scheduler, optimizer, epoch, args):
 
 def test(dataset, model, epoch, args):
     print("{} epoch: \t start validation....".format(epoch))
-    model = model.module
+#     model = model.module
     model.eval()
     model.is_training = False
     with torch.no_grad():
