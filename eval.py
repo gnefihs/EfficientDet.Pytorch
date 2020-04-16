@@ -94,6 +94,9 @@ def _get_detections(dataset, retinanet, score_threshold=0.05, max_detections=100
     with torch.no_grad():
 
         for index in range(len(dataset)):
+            if index % 1000 == 0:
+                print("len of dataset: {}, current: {}".format(len(dataset), index))
+                
             data = dataset[index]
             scale = data['scale']
 

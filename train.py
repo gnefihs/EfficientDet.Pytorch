@@ -124,11 +124,10 @@ def train(train_loader, model, scheduler, optimizer, epoch, args):
             optimizer.zero_grad()
 
         total_loss.append(loss.item())
-        if(iteration % 100 == 0):
-            print('{} iteration: training ...'.format(iteration))
+        if(iteration % int(len(train_loader)/2) == 0):
+            print('Iteration {}: training ...'.format(iteration))
             ans = {
                 'epoch': epoch,
-                'iteration': iteration,
                 'cls_loss': classification_loss.item(),
                 'reg_loss': regression_loss.item(),
                 'mean_loss': np.mean(total_loss)
@@ -138,6 +137,7 @@ def train(train_loader, model, scheduler, optimizer, epoch, args):
         iteration += 1
     scheduler.step(np.mean(total_loss))
     result = {
+        'iteration': iteration,
         'time': time.time() - start,
         'loss': np.mean(total_loss)
     }

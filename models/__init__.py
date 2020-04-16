@@ -1,1 +1,1 @@
-from .efficientdet import EfficientDet
+from .efficientdet import *

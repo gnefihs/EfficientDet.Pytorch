@@ -105,13 +105,18 @@ class Resizer(object):
             scale = common_size / width
             resized_height = int(height * scale)
             resized_width = common_size
-
-        image = cv2.resize(image, (resized_width, resized_height))
+        
+        
+        image = cv2.resize(image, (int(resized_width/4), int(resized_height/4)))
+        image = cv2.resize(image, (resized_width, resized_height), interpolation=cv2.INTER_CUBIC)
+#         print('image', image.size)
+#         image = cv2.resize(image, (resized_width, resized_height))
 
         new_image = np.zeros((common_size, common_size, 3))
         new_image[0:resized_height, 0:resized_width] = image
+        new_image = new_image
         annots[:, :4] *= scale
-
+#         print('new_image', new_image.size)
         return {'img': torch.from_numpy(new_image), 'annot': torch.from_numpy(annots), 'scale': scale}
 
 
