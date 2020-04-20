@@ -1,0 +1,571 @@
+Iteration 156: training ...
+    cls_loss       : 1.9400861263275146
+    reg_loss       : 0.7227423191070557
+    mean_loss      : 2.9105239785634556
+    epoch          : 269
+Iteration 312: training ...
+    cls_loss       : 2.114393711090088
+    reg_loss       : 0.9248255491256714
+    mean_loss      : 2.827273197663136
+    epoch          : 269
+    loss           : 2.8271977337785423
+    iteration      : 314
+    time           : 244.8816385269165
+269 epoch: 	 start validation....
+len of dataset: 2510, current: 0
+len of dataset: 2510, current: 1000
+len of dataset: 2510, current: 2000
+2510/2510
+mAP:
+aeroplane: 0.07283755730456878
+bicycle: 0.07423361069115104
+bird: 0.050652925160104285
+boat: 0.031218242218918172
+bottle: 0.009796088288529708
+bus: 0.022417153996101363
+car: 0.10532864515285015
+cat: 0.03992210992240262
+chair: 0.023416874494980398
+cow: 0.0
+diningtable: 0.011963051508192804
+dog: 0.011673151750972763
+horse: 0.0036324786324786326
+motorbike: 0.041330762260994816
+person: 0.008678871536337989
+pottedplant: 0.00538369129780212
+sheep: 0.00031496062992125983
+sofa: 0.04213474361813925
+train: 0.032048872180451125
+tvmonitor: 0.08634244712187773
+avg mAP: 0.033666311888338754
+hi from train.py
+270 epoch: 	 start training....
+Iteration 468: training ...
+    cls_loss       : 2.025766134262085
+    reg_loss       : 0.9089161157608032
+    mean_loss      : 2.643967342376709
+    epoch          : 270
+Iteration 624: training ...
+    cls_loss       : 2.0474178791046143
+    reg_loss       : 0.7746657729148865
+    mean_loss      : 2.621962101129857
+    epoch          : 270
+    loss           : 2.623462827060931
+    iteration      : 627
+    time           : 242.54419875144958
+hi from train.py
+271 epoch: 	 start training....
+Iteration 780: training ...
+    cls_loss       : 1.8135061264038086
+    reg_loss       : 0.8208797574043274
+    mean_loss      : 2.46824090279542
+    epoch          : 271
+Iteration 936: training ...
+    cls_loss       : 1.69935941696167
+    reg_loss       : 0.5563733577728271
+    mean_loss      : 2.434629966751222
+    epoch          : 271
+    loss           : 2.4351297274184303
+    iteration      : 940
+    time           : 258.46770453453064
+hi from train.py
+272 epoch: 	 start training....
+Iteration 1092: training ...
+    cls_loss       : 1.2184853553771973
+    reg_loss       : 0.7385834455490112
+    mean_loss      : 2.2717833791682924
+    epoch          : 272
+Iteration 1248: training ...
+    cls_loss       : 1.9382755756378174
+    reg_loss       : 0.7156205177307129
+    mean_loss      : 2.2506925928554105
+    epoch          : 272
+    loss           : 2.25114692590488
+    iteration      : 1253
+    time           : 254.06384301185608
+hi from train.py
+273 epoch: 	 start training....
+Iteration 1404: training ...
+    cls_loss       : 1.540994644165039
+    reg_loss       : 0.5802215337753296
+    mean_loss      : 2.1657183640881588
+    epoch          : 273
+Iteration 1560: training ...
+    cls_loss       : 1.1066460609436035
+    reg_loss       : 0.720954179763794
+    mean_loss      : 2.1156380052690382
+    epoch          : 273
+    loss           : 2.1104021354224356
+    iteration      : 1566
+    time           : 258.27210330963135
+hi from train.py
+274 epoch: 	 start training....
+Iteration 1716: training ...
+    cls_loss       : 1.335619330406189
+    reg_loss       : 0.7443028092384338
+    mean_loss      : 1.9563464928936485
+    epoch          : 274
+Iteration 1872: training ...
+    cls_loss       : 0.992469310760498
+    reg_loss       : 0.5286934971809387
+    mean_loss      : 1.9354359561923273
+    epoch          : 274
+    loss           : 1.9344813642791285
+    iteration      : 1879
+    time           : 259.2964868545532
+hi from train.py
+275 epoch: 	 start training....
+Iteration 2028: training ...
+    cls_loss       : 1.2521045207977295
+    reg_loss       : 0.6134229898452759
+    mean_loss      : 1.7939511692523957
+    epoch          : 275
+Iteration 2184: training ...
+    cls_loss       : 1.2000515460968018
+    reg_loss       : 0.5380404591560364
+    mean_loss      : 1.7529429337557625
+    epoch          : 275
+    loss           : 1.7524618386460569
+    iteration      : 2192
+    time           : 253.10226726531982
+hi from train.py
+276 epoch: 	 start training....
+Iteration 2340: training ...
+    cls_loss       : 0.7384402751922607
+    reg_loss       : 0.5855684280395508
+    mean_loss      : 1.7397097213156272
+    epoch          : 276
+Iteration 2496: training ...
+    cls_loss       : 0.8568994402885437
+    reg_loss       : 0.4260263442993164
+    mean_loss      : 1.6752677423055056
+    epoch          : 276
+    loss           : 1.671312982472368
+    iteration      : 2505
+    time           : 248.7478518486023
+hi from train.py
+277 epoch: 	 start training....
+Iteration 2652: training ...
+    cls_loss       : 1.3488209247589111
+    reg_loss       : 0.5674601793289185
+    mean_loss      : 1.552098413979685
+    epoch          : 277
+Iteration 2808: training ...
+    cls_loss       : 0.6151731610298157
+    reg_loss       : 0.3296147882938385
+    mean_loss      : 1.5376437071122622
+    epoch          : 277
+    loss           : 1.5377574526844695
+    iteration      : 2818
+    time           : 253.04584956169128
+hi from train.py
+278 epoch: 	 start training....
+Iteration 2964: training ...
+    cls_loss       : 0.6176291704177856
+    reg_loss       : 0.5407621264457703
+    mean_loss      : 1.4491359709071465
+    epoch          : 278
+Iteration 3120: training ...
+    cls_loss       : 0.47963231801986694
+    reg_loss       : 0.35174262523651123
+    mean_loss      : 1.4321378382912564
+    epoch          : 278
+    loss           : 1.4329174593233833
+    iteration      : 3131
+    time           : 256.0448272228241
+hi from train.py
+279 epoch: 	 start training....
+Iteration 3276: training ...
+    cls_loss       : 1.3708652257919312
+    reg_loss       : 0.6203057765960693
+    mean_loss      : 1.3521718276690131
+    epoch          : 279
+Iteration 3432: training ...
+    cls_loss       : 0.6882169246673584
+    reg_loss       : 0.5166065692901611
+    mean_loss      : 1.3643790110452285
+    epoch          : 279
+    loss           : 1.3644288300325313
+    iteration      : 3444
+    time           : 255.4944920539856
+279 epoch: 	 start validation....
+len of dataset: 2510, current: 0
+len of dataset: 2510, current: 1000
+len of dataset: 2510, current: 2000
+2510/2510
+mAP:
+aeroplane: 0.5620894925004662
+bicycle: 0.479590069563353
+bird: 0.3810529304515
+boat: 0.34603368996204037
+bottle: 0.18123331859535174
+bus: 0.5057294067018073
+car: 0.5220909552831487
+cat: 0.49302943922437215
+chair: 0.2912350843948618
+cow: 0.4818464587944976
+diningtable: 0.4477004575356987
+dog: 0.5213775037436362
+horse: 0.6087183661668087
+motorbike: 0.5834713839506908
+person: 0.5101641380355798
+pottedplant: 0.10023301155237532
+sheep: 0.4081630305629902
+sofa: 0.5794558699742005
+train: 0.6234576189145383
+tvmonitor: 0.5137595810772286
+avg mAP: 0.4570215903492573
+hi from train.py
+280 epoch: 	 start training....
+Iteration 3588: training ...
+    cls_loss       : 0.8530057072639465
+    reg_loss       : 0.384293794631958
+    mean_loss      : 1.3217237435538194
+    epoch          : 280
+Iteration 3744: training ...
+    cls_loss       : 0.6807079315185547
+    reg_loss       : 0.5492525696754456
+    mean_loss      : 1.2783330251212135
+    epoch          : 280
+    loss           : 1.271252643757354
+    iteration      : 3757
+    time           : 247.33726477622986
+hi from train.py
+281 epoch: 	 start training....
+Iteration 3900: training ...
+    cls_loss       : 0.6151280403137207
+    reg_loss       : 0.42425304651260376
+    mean_loss      : 1.2158734407275915
+    epoch          : 281
+Iteration 4056: training ...
+    cls_loss       : 0.6013633012771606
+    reg_loss       : 0.3786262273788452
+    mean_loss      : 1.1884629496932029
+    epoch          : 281
+    loss           : 1.1839377018399895
+    iteration      : 4070
+    time           : 258.33392214775085
+hi from train.py
+282 epoch: 	 start training....
+Iteration 4212: training ...
+    cls_loss       : 0.8873502612113953
+    reg_loss       : 0.48616212606430054
+    mean_loss      : 1.1361614774157118
+    epoch          : 282
+Iteration 4368: training ...
+    cls_loss       : 0.5668030977249146
+    reg_loss       : 0.4630974531173706
+    mean_loss      : 1.1201162356198033
+    epoch          : 282
+    loss           : 1.1129039989683194
+    iteration      : 4383
+    time           : 247.9911515712738
+hi from train.py
+283 epoch: 	 start training....
+Iteration 4524: training ...
+    cls_loss       : 0.9252230525016785
+    reg_loss       : 0.5983473658561707
+    mean_loss      : 1.12755323337837
+    epoch          : 283
+Iteration 4680: training ...
+    cls_loss       : 0.5767470598220825
+    reg_loss       : 0.30600327253341675
+    mean_loss      : 1.089170963972207
+    epoch          : 283
+    loss           : 1.082221773485787
+    iteration      : 4696
+    time           : 246.37900519371033
+hi from train.py
+284 epoch: 	 start training....
+Iteration 4836: training ...
+    cls_loss       : 0.548249363899231
+    reg_loss       : 0.366671621799469
+    mean_loss      : 1.0011460339346676
+    epoch          : 284
+Iteration 4992: training ...
+    cls_loss       : 0.6892061233520508
+    reg_loss       : 0.45169973373413086
+    mean_loss      : 0.9859506992579309
+    epoch          : 284
+    loss           : 0.9911587625837174
+    iteration      : 5009
+    time           : 247.49171614646912
+hi from train.py
+285 epoch: 	 start training....
+Iteration 5148: training ...
+    cls_loss       : 0.9088274240493774
+    reg_loss       : 0.4447298049926758
+    mean_loss      : 0.9727845954043525
+    epoch          : 285
+Iteration 5304: training ...
+    cls_loss       : 0.5549359917640686
+    reg_loss       : 0.4497402608394623
+    mean_loss      : 0.9589133394529691
+    epoch          : 285
+    loss           : 0.9561779181987714
+    iteration      : 5322
+    time           : 242.64958786964417
+hi from train.py
+286 epoch: 	 start training....
+Iteration 5460: training ...
+    cls_loss       : 0.640272855758667
+    reg_loss       : 0.2942560315132141
+    mean_loss      : 0.9111632573947632
+    epoch          : 286
+Iteration 5616: training ...
+    cls_loss       : 0.313668817281723
+    reg_loss       : 0.3523200750350952
+    mean_loss      : 0.8907015724707458
+    epoch          : 286
+    loss           : 0.891000966294505
+    iteration      : 5635
+    time           : 244.6862473487854
+hi from train.py
+287 epoch: 	 start training....
+Iteration 5772: training ...
+    cls_loss       : 0.2843358516693115
+    reg_loss       : 0.21903164684772491
+    mean_loss      : 0.856389951446782
+    epoch          : 287
+Iteration 5928: training ...
+    cls_loss       : 0.7730712890625
+    reg_loss       : 0.5280370712280273
+    mean_loss      : 0.8552666485917811
+    epoch          : 287
+    loss           : 0.8557817765508597
+    iteration      : 5948
+    time           : 248.5824761390686
+hi from train.py
+288 epoch: 	 start training....
+Iteration 6084: training ...
+    cls_loss       : 0.28968995809555054
+    reg_loss       : 0.29697906970977783
+    mean_loss      : 0.7974248656826298
+    epoch          : 288
+Iteration 6240: training ...
+    cls_loss       : 0.6785397529602051
+    reg_loss       : 0.448081374168396
+    mean_loss      : 0.8108069771589272
+    epoch          : 288
+    loss           : 0.8188215165663832
+    iteration      : 6261
+    time           : 242.36780643463135
+hi from train.py
+289 epoch: 	 start training....
+Iteration 6396: training ...
+    cls_loss       : 0.40524423122406006
+    reg_loss       : 0.3750668466091156
+    mean_loss      : 0.7976619195850456
+    epoch          : 289
+Iteration 6552: training ...
+    cls_loss       : 0.3238053619861603
+    reg_loss       : 0.33355388045310974
+    mean_loss      : 0.7858296222474477
+    epoch          : 289
+    loss           : 0.7947388588430021
+    iteration      : 6574
+    time           : 247.39982652664185
+289 epoch: 	 start validation....
+len of dataset: 2510, current: 0
+len of dataset: 2510, current: 1000
+len of dataset: 2510, current: 2000
+2510/2510
+mAP:
+aeroplane: 0.776956031029449
+bicycle: 0.5978155688026383
+bird: 0.5712226344092926
+boat: 0.6127120703732729
+bottle: 0.4009799331152875
+bus: 0.790510635561326
+car: 0.7013479127728599
+cat: 0.7437312540028342
+chair: 0.5900801773179438
+cow: 0.6756529999589779
+diningtable: 0.7577206894478239
+dog: 0.7351631379857109
+horse: 0.7873030528373023
+motorbike: 0.7297972663190009
+person: 0.688103204990828
+pottedplant: 0.3235163159097159
+sheep: 0.6439938673870155
+sofa: 0.8365829116198656
+train: 0.789778671824103
+tvmonitor: 0.8035385838556086
+avg mAP: 0.6778253459760428
+hi from train.py
+290 epoch: 	 start training....
+Iteration 6708: training ...
+    cls_loss       : 0.46506333351135254
+    reg_loss       : 0.29111894965171814
+    mean_loss      : 0.7671630912356906
+    epoch          : 290
+Iteration 6864: training ...
+    cls_loss       : 0.35371777415275574
+    reg_loss       : 0.27412939071655273
+    mean_loss      : 0.7610344205218083
+    epoch          : 290
+    loss           : 0.7610599055362586
+    iteration      : 6887
+    time           : 243.11138367652893
+hi from train.py
+291 epoch: 	 start training....
+Iteration 7020: training ...
+    cls_loss       : 0.8178166747093201
+    reg_loss       : 0.33611860871315
+    mean_loss      : 0.7338724790224388
+    epoch          : 291
+Iteration 7176: training ...
+    cls_loss       : 0.23373320698738098
+    reg_loss       : 0.16573333740234375
+    mean_loss      : 0.7329947442843996
+    epoch          : 291
+    loss           : 0.7327680296410387
+    iteration      : 7200
+    time           : 243.5458538532257
+hi from train.py
+292 epoch: 	 start training....
+Iteration 7332: training ...
+    cls_loss       : 0.35096901655197144
+    reg_loss       : 0.22984734177589417
+    mean_loss      : 0.7086032487844166
+    epoch          : 292
+Iteration 7488: training ...
+    cls_loss       : 0.2725485861301422
+    reg_loss       : 0.29456669092178345
+    mean_loss      : 0.7159966540790347
+    epoch          : 292
+    loss           : 0.716935556155805
+    iteration      : 7513
+    time           : 242.67366242408752
+hi from train.py
+293 epoch: 	 start training....
+Iteration 7644: training ...
+    cls_loss       : 0.38610196113586426
+    reg_loss       : 0.42404359579086304
+    mean_loss      : 0.6953730127125075
+    epoch          : 293
+Iteration 7800: training ...
+    cls_loss       : 0.3470628261566162
+    reg_loss       : 0.17127397656440735
+    mean_loss      : 0.7186013876150051
+    epoch          : 293
+    loss           : 0.7122618822624889
+    iteration      : 7826
+    time           : 243.92290711402893
+hi from train.py
+294 epoch: 	 start training....
+Iteration 7956: training ...
+    cls_loss       : 0.8159915208816528
+    reg_loss       : 0.297896146774292
+    mean_loss      : 0.7195784903437127
+    epoch          : 294
+Iteration 8112: training ...
+    cls_loss       : 0.33156704902648926
+    reg_loss       : 0.23054562509059906
+    mean_loss      : 0.7028322009570923
+    epoch          : 294
+    loss           : 0.699539384855249
+    iteration      : 8139
+    time           : 246.7742075920105
+hi from train.py
+295 epoch: 	 start training....
+Iteration 8268: training ...
+    cls_loss       : 0.10611830651760101
+    reg_loss       : 0.1235615462064743
+    mean_loss      : 0.6604438566244566
+    epoch          : 295
+Iteration 8424: training ...
+    cls_loss       : 0.46948957443237305
+    reg_loss       : 0.2939908504486084
+    mean_loss      : 0.6712221136459937
+    epoch          : 295
+    loss           : 0.6680508790115198
+    iteration      : 8452
+    time           : 244.22359037399292
+hi from train.py
+296 epoch: 	 start training....
+Iteration 8580: training ...
+    cls_loss       : 0.1938367486000061
+    reg_loss       : 0.21993079781532288
+    mean_loss      : 0.65322381223357
+    epoch          : 296
+Iteration 8736: training ...
+    cls_loss       : 0.33009541034698486
+    reg_loss       : 0.34312888979911804
+    mean_loss      : 0.6694508089308153
+    epoch          : 296
+    loss           : 0.6672297557131551
+    iteration      : 8765
+    time           : 250.70502710342407
+hi from train.py
+297 epoch: 	 start training....
+Iteration 8892: training ...
+    cls_loss       : 0.1442210078239441
+    reg_loss       : 0.1778419017791748
+    mean_loss      : 0.627599221537821
+    epoch          : 297
+Iteration 9048: training ...
+    cls_loss       : 0.3837822675704956
+    reg_loss       : 0.31900733709335327
+    mean_loss      : 0.6497912165039862
+    epoch          : 297
+    loss           : 0.6615710147082234
+    iteration      : 9078
+    time           : 255.1683247089386
+hi from train.py
+298 epoch: 	 start training....
+Iteration 9204: training ...
+    cls_loss       : 0.3284904956817627
+    reg_loss       : 0.3201124370098114
+    mean_loss      : 0.6475678359664331
+    epoch          : 298
+Iteration 9360: training ...
+    cls_loss       : 0.5685591101646423
+    reg_loss       : 0.35361164808273315
+    mean_loss      : 0.6466395509011332
+    epoch          : 298
+    loss           : 0.6462916215768637
+    iteration      : 9391
+    time           : 259.4914712905884
+hi from train.py
+299 epoch: 	 start training....
+Iteration 9516: training ...
+    cls_loss       : 0.5406684875488281
+    reg_loss       : 0.3388879895210266
+    mean_loss      : 0.6472370382102709
+    epoch          : 299
+Iteration 9672: training ...
+    cls_loss       : 0.234380841255188
+    reg_loss       : 0.22349616885185242
+    mean_loss      : 0.6374015336235365
+    epoch          : 299
+    loss           : 0.6362672879958686
+    iteration      : 9704
+    time           : 258.0560026168823
+299 epoch: 	 start validation....
+len of dataset: 2510, current: 0
+len of dataset: 2510, current: 1000
+len of dataset: 2510, current: 2000
+2510/2510
+mAP:
+aeroplane: 0.8104399339666645
+bicycle: 0.6640240164192674
+bird: 0.6217366322899267
+boat: 0.6601646940773851
+bottle: 0.4683481462664155
+bus: 0.8505964686708105
+car: 0.7679502827433673
+cat: 0.8087728044565529
+chair: 0.6556583774436644
+cow: 0.7657873000996803
+diningtable: 0.7816148878266618
+dog: 0.8210139761719325
+horse: 0.8517636793236386
+motorbike: 0.8055328655094546
+person: 0.7534564703756025
+pottedplant: 0.43075533456720483
+sheep: 0.7321119732663205
+sofa: 0.8773286058467362
+train: 0.8186837132871403
+tvmonitor: 0.8411953914495527
+avg mAP: 0.7393467777028989
